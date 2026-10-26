@@ -2,6 +2,9 @@
 
 Notes, scripts and config for booting **Linux 6.11 (Buildroot, no MMU)** on an ESP32-S3, showing the terminal on a 0.96" SSD1306 OLED and typing on a wireless USB keyboard, with no PC needed after boot.
 
+<img src="docs/images/oled-console.jpg" alt="Linux console running on the OLED" width="420">
+<img src="docs/images/hardware.jpg" alt="ESP32-S3 hardware setup" width="420">
+
 It builds on the open-source [esp32-linux-build](https://github.com/jcmvbkbc/esp32-linux-build) project (Linux port for ESP32 chips by jcmvbkbc). This repository contains only my notes, helper scripts and small config changes. Nothing from the upstream project is copied here, and it keeps its own licenses.
 
 ## Hardware
