@@ -1,0 +1,5 @@
+#!/bin/sh
+# Ask init to re-read /etc/inittab after /etc is mounted, so the tty1 login starts at boot.
+case "$1" in
+  start) kill -HUP 1 ;;
+esac

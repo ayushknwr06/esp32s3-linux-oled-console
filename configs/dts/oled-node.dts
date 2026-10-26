@@ -1,0 +1,9 @@
+/* Add inside the i2c0 { ... }; block of arch/xtensa/boot/dts/esp32s3-devkit-c1.dts */
+oled@3c {
+	compatible = "solomon,ssd1306fb-i2c";
+	reg = <0x3c>;
+	solomon,width = <128>;
+	solomon,height = <64>;
+	solomon,page-offset = <0>;
+	solomon,segment-no-remap;	/* fixes mirrored text; add solomon,com-invdir; if upside down */
+};
